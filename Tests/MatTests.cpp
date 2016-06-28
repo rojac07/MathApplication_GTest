@@ -11,18 +11,23 @@ TEST(MathTests, Sum)
 {
 	Mat m = Mat();
 	int actual = m.Add(2, 3);
-	const int expected = 5 + 0;
-
+	const int expected = 5;
 	EXPECT_EQ(expected, actual);
 }
 
-TEST(MathTests, Test2)
+TEST(MathTests, GenerateNumber)
 {
-	ASSERT_TRUE(true);
+	Mat m = Mat();
+	int actual = m.ReturnNumber();
+	const int expected = 123;
+	EXPECT_EQ(expected, actual);
 }
-TEST(MathTests, Test3)
+TEST(MathTests, Square)
 {
-	ASSERT_TRUE(true);
+	Mat m = Mat();
+	int actual = m.Square(5);
+	const int expected = 25;
+	EXPECT_EQ(expected, actual);
 }
 TEST(MathTests, Test4)
 {
@@ -32,9 +37,6 @@ TEST(MathTests, Test5)
 {
 	ASSERT_TRUE(true);
 }
-
-
-
 
 int _tmain(int argc, _TCHAR* argv[])
 {
