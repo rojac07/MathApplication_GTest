@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BusinessLogic", "BusinessLogic\BusinessLogic.vcxproj", "{3C54CD22-8B71-47A7-AFB7-E2778B581BAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{841E290F-DCC8-4A7A-ADC4-90F432ADF581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C54CD22-8B71-47A7-AFB7-E2778B581BAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C54CD22-8B71-47A7-AFB7-E2778B581BAC}.Debug|Win32.Build.0 = Debug|Win32
+		{3C54CD22-8B71-47A7-AFB7-E2778B581BAC}.Release|Win32.ActiveCfg = Release|Win32
+		{3C54CD22-8B71-47A7-AFB7-E2778B581BAC}.Release|Win32.Build.0 = Release|Win32
+		{841E290F-DCC8-4A7A-ADC4-90F432ADF581}.Debug|Win32.ActiveCfg = Debug|Win32
+		{841E290F-DCC8-4A7A-ADC4-90F432ADF581}.Debug|Win32.Build.0 = Debug|Win32
+		{841E290F-DCC8-4A7A-ADC4-90F432ADF581}.Release|Win32.ActiveCfg = Release|Win32
+		{841E290F-DCC8-4A7A-ADC4-90F432ADF581}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
